@@ -165,6 +165,9 @@ All processing happens on your local machine. The Ollama model runs fully offlin
 - Added 3-tier verdict system: Recommended / Potential / Not Recommended
 - Built the Employer Chatbot for plain-English candidate Q&A
 
+### Mohd Soad 
+- Report Preparation
+
 ---
 
 ## 📚 Academic Context
