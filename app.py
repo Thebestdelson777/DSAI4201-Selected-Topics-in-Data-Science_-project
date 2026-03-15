@@ -2,7 +2,7 @@ import streamlit as st
 import os
 import pandas as pd
 import io
-from extractor import extract_text
+from hire.extractor import extract_text
 from scorer import score_candidate, generate_interview_questions
 import ollama
 
