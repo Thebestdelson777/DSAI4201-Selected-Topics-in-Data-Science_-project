@@ -1,11 +1,11 @@
-# 🧠 SmartHire AI
+# SmartHire AI
 **Intelligent CV Screening · Powered by Local AI · No Data Leaves Your Machine**
 
 > Built for DSAI 4201 — Selected Topics in Data Science  
 
 ---
 
-## 📌 What It Does
+## What It Does
 
 SmartHire AI is an AI-powered CV screening and interview preparation tool. Paste a job description, upload multiple CVs, and the system automatically ranks candidates — explaining why each one is or isn't a good fit, detecting suspicious skill claims, and generating tailored interview questions on demand.
 
@@ -32,7 +32,7 @@ Everything runs **100% locally** using Ollama. No API keys. No data sent to the 
 
 ---
 
-## ✨ Features
+## Features
 
 - **Hybrid Scoring** — TF-IDF cosine similarity + AI skill extraction combined
 - **4-Dimension Scoring** — Skills (40pts) · Experience (30pts) · Education (15pts) · Projects (15pts)
@@ -46,7 +46,7 @@ Everything runs **100% locally** using Ollama. No API keys. No data sent to the 
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |---|---|
@@ -58,7 +58,7 @@ Everything runs **100% locally** using Ollama. No API keys. No data sent to the 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 hire/
@@ -77,7 +77,7 @@ hire/
 
 ---
 
-## ⚙️ How the Scoring Works
+## How the Scoring Works
 
 ```
 CV + JD
@@ -103,7 +103,7 @@ CV + JD
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Prerequisites
 
@@ -129,7 +129,7 @@ python -m streamlit run app.py
 
 ---
 
-## 💡 Usage
+##  Usage
 
 1. **Paste a Job Description** in Step 1
 2. **Upload CVs** (PDF, DOCX, or TXT) in Step 2
@@ -141,7 +141,7 @@ python -m streamlit run app.py
 
 ---
 
-## 🔒 Privacy
+##  Privacy
 
 All processing happens on your local machine. The Ollama model runs fully offline. No CV data, job descriptions, or results are sent to any external server.
 
@@ -166,8 +166,13 @@ All processing happens on your local machine. The Ollama model runs fully offlin
 - Built the Employer Chatbot for plain-English candidate Q&A
 
 ### Mohd Soad 
-- Report Preparation
-
+- Prepared the complete technical report, including methodology, implementation details, results, and findings
+- Created the final presentation slides for project demonstration and evaluation
+- Helped validate chatbot outputs and refine response quality across different candidate scenarios
+- Assisted in reviewing and improving skill extraction outputs to reduce mismatches
+- Contributed to testing the end-to-end system workflow from CV upload to final candidate evaluation
+- Helped verify and interpret final system results for reporting and presentation
+- Supported final integration checks and overall submission readiness
 ---
 
 ## 📚 Academic Context
