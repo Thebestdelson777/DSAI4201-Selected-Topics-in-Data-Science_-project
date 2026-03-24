@@ -175,7 +175,7 @@ All processing happens on your local machine. The Ollama model runs fully offlin
 - Supported final integration checks and overall submission readiness
 ---
 
-## 📚 Academic Context
+## Academic Context
 
 **Course:** DSAI 4201 — Selected Topics in Data Science
 
