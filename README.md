@@ -147,16 +147,20 @@ All processing happens on your local machine. The Ollama model runs fully offlin
 
 ---
 
-### Faiz
-- Designed and built the entire core scoring pipeline (Steps 1–6)
-- TF-IDF cosine similarity baseline
-- AI skill extraction with explicit + project inference (2-layer)
-- Fraud detection with trust scoring system
-- Flexible 3-layer skill matching with false positive prevention
-- 4-dimension scoring logic (Skills, Experience, Education, Projects)
-- Interview question generator (Technical / Behavioral / Gap)
-- Full Streamlit UI — candidate cards, comparison, CSV export, session state management
-- extractor.py — PDF, DOCX, TXT file reader
+### Mohammed Faiz Jabir
+- Designed and built the complete AI scoring pipeline from scratch
+- TF-IDF cosine similarity as the mathematical baseline for candidate scoring
+- 2-layer AI skill extraction — explicit skills from CV text + intelligent inference from project descriptions
+- Fraud detection system with per-skill trust scoring to flag unverified claims
+- 3-layer flexible skill matching with false positive prevention (stops ecology CVs matching Python)
+- 4-dimension weighted scoring engine — Skills (40pts), Experience (30pts), Education (15pts), Projects (15pts)
+- AI interview question generator producing tailored Technical, Behavioral and Gap questions per candidate
+- Full Streamlit UI — candidate cards, score breakdowns, skill tags, fraud alerts, progress tracking
+- Candidate comparison feature with side-by-side scoring and winner declaration
+- Session state management so interview buttons don't wipe the page
+- CSV export for downstream recruiter use
+- extractor.py — PDF (PyMuPDF), DOCX (python-docx), and TXT file reader
+- Job Seeker Mode — CV upload, AI profile extraction, live job search via JSearch API, job match scoring, cover letter generator, CV improvement tips (yet to be pushed)
 
 ### Delson
 - Rewrote the AI explanation module (Step 7) with stricter evaluation logic
